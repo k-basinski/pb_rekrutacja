@@ -1,6 +1,6 @@
 ---
-title: "Projekt badawczy - psychologia zdrowia"
-author: "Krzysztof Basiński"
+title: "Projekt badawczy - 2018/19 - 3 rok, psychologia zdrowia GUMed"
+
 output: 
   html_document:
     toc: true
@@ -9,7 +9,7 @@ output:
 ---
 # Wprowadzenie
 
-To jest strona przedmiotu **projekt badawczy**. Znajdziecie na niej wszystkie najważniejsze informacje związane z przedmiotem. W razie pytań lub wątpliwości [piszcie do mnie](mailto:krzysztof.basinski@gumed.edu.pl). Prosiłbym, aby tematy wszystkich maili w sprawie tego przedmiotu zaczynać od "[projekt badawczy]"!.
+To jest strona przedmiotu **projekt badawczy**. Znajdziecie na niej wszystkie najważniejsze informacje związane z przedmiotem. W razie pytań lub wątpliwości [piszcie do mnie](mailto:krzysztof.basinski@gumed.edu.pl). Prosiłbym, aby tematy wszystkich maili w sprawie tego przedmiotu zaczynać od "[projekt badawczy]"!
 
 # Ważne terminy
 
@@ -34,7 +34,7 @@ library(stringr)
 opiekunowie <- tribble(
   ~stopien, ~imie, ~nazwisko, ~miejsca, ~temat,
   "dr hab.", "Emilia", "Sitek", 3, "choroba Huntingtona, postępujące porażenie ponadjądrowe, afazja pierwotna postępująca",
-  "mgr", "Krzysztof", "Basiński", 4, "cognitive and emotional modulation of pain, cognitive science of audition",
+  "mgr", "Krzysztof", "Basiński", 4, "poznawcza i emocjonalna modulacja bólu, cognitive science of audition",
   "dr", "Agata", "Zdun-Ryżewska", 3, "zmęczenie, depresja, psychoonkologia, jakość życia, przyjmę też osobę z własnym tematem jeśli tylko uznam, że wiem w tym obszarze coś na tyle, aby pomóc w zrealizowaniu tego projektu",
   "mgr", "Natalia", "Nadrowska", 5, "radzenie sobie ze stresem w systemie rodzinnym",
   "mgr", "Katarzyna", "Milska", 12, "psychologia chorób somatycznych, psychologia chorób i zaburzeń psychicznych, psychologia zdrowia, psychoterapia, psychologia niepełnosprawności, psychologia zaburzeń genetycznych [szczegółowa lista tutaj](pb_milska.pdf)",
@@ -51,7 +51,7 @@ opiekunowie %>%
   mutate(opiekun = str_c(stopien, imie, nazwisko, sep = " ")) %>% 
   select(opiekun, miejsca, temat)
 
-opiekunowie$miejsca %>% sum()
+# opiekunowie$miejsca %>% sum()
 ```
 
 

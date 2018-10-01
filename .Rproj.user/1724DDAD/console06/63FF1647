@@ -93,4 +93,4 @@ Total 15 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
 To https://github.com/k-basinski/pb_rekrutacja.git
    6f17f1d..ab2c3a7  master -> master
-]0;~/Dropbox/dydaktyka/projekt_badawczy/pb_rekrutacjaMBP-Krzysztof:pb_rekrutacja krzysztof$ 
+[KMBP-Krzysztof:pb_rekrutacja krzysztof$ git add .
