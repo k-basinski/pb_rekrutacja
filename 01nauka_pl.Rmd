@@ -1,0 +1,69 @@
+---
+title: "Nauka w Polsce - stopnie, tytuły, stanowiska, uniwersytety i ich administracja"
+author: "Krzysztof Basiński"
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    center: true
+    incremental: true
+---
+
+# Nauka w Polsce
+
+
+## Hierarchia stopni/tytułów naukowych
+
+- Magister
+- Doktor
+- Doktor habilitowany
+- Profesor
+
+## Stanowiska na uczelniach (naukowo-dydaktyczne)
+
+- Asystent
+- Adiunkt
+- Profesor nadzwyczajny
+- Profesor zwyczajny
+
+## Stanowiska na uczelniach (dydaktyczne)
+
+- Lektor
+- Instruktor
+- Wykładowca
+- Starszy wykładowca
+
+## Władze uczelni
+
+- Rektor
+- Prorektorzy
+- Senat
+- Rada uczelni? (Ustawa 2.0)
+
+- Kanclerz
+
+## Władze wydziałów
+
+- Dziekan
+- Prodziekani
+- Rada Wydziału
+
+## Instytucje w uczelni
+
+- Uczelnia (Rektor)
+- Wydział (Dziekan)
+- Katedra (Kierownik katedry)
+- Zakład (Kierownik zakładu)
+
+## Typowy przebieg kariery akademickiej
+
+- Studia pierwszego i drugiego stopnia
+- Studia doktoranckie / szkoła doktorska (Ustawa 2.0)
+- Post-doc
+- Stanowisko adiunkta/profesora
+
+## System grantowy w Polsce
+
+- Ministerstwo Nauki i Szkolnictwa Wyższego
+- Narodowe Centrum Nauki
+- Narodowe Centrum Badań i Rozwoju
+- Fundacja na rzecz Nauki Polskiej

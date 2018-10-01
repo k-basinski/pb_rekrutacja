@@ -54,11 +54,25 @@ opiekunowie %>%
 # opiekunowie$miejsca %>% sum()
 ```
 
+# Seminaria
 
+Na seminariach poruszać będziemy kwestie organizacyjne związane z rekrutacją do opiekunów. Dodatkowo, celem seminariów jest zapoznanie was z problematyką organizacji pracy w nauce, budowaniem zespołów naukowych i zarządzaniem projektami naukowymi. Dla osób zainteresowanych polecam ksiażkę *Making the Right Moves: A Practical Guide to Scientific Management for Postdocs and New Faculty*, dostępną za darmo [tutaj](https://www.hhmi.org/developing-scientists/making-right-moves). Książka jest co prawda adresowana dla ludzi po doktoracie, ale jestem pewien że już na waszym etapie jesteście w stanie z niej wyciągnąć wiele wartościowych rzeczy.
+
+Seminaria odbywają się w poniższych terminach:
+
+- 1.10, 15:15-17:30, AGN 104
+- 9.10, 12:45-15:00, T1 (uwaga! możliwa mała korekta godziny! dam znać!)
+- 15.10, 15:15-17:30, AGN 104
+- 22.10, 15:15-17:30, AGN 104
+- 29.10, 15:15-17:30, AGN 104
+
+# Prezentacje z seminariów
+
+- 01 - [Nauka w Polsce](01nauka_pl.html)
 
 # Regulamin przedmiotu
 
-## §1. Podstawowe informacje o przedmiocie
+#### §1. Podstawowe informacje o przedmiocie
 
 1. Organizacją procesu przypisywania studentów do opiekunów oraz organizacją **konferencji końcowej** zajmuje się **koordynator projektu badawczego** wyznaczony przez **kierownika kierunku**.
 1. Przedmiot projekt badawczy polega na zaprojektowaniu i zrealizowaniu psychologicznego badania empirycznego.
@@ -72,7 +86,7 @@ opiekunowie %>%
 
 
 
-## §2. Tematyka i zakres prac badawczych
+#### §2. Tematyka i zakres prac badawczych
 
 1. Opiekunowie ustalają zakres tematyczny projektów badawczych realizowanych pod ich opieką i informują o nim **koordynatora**.
 1. Temat *projektu badawczego* musi być zaakceptowany przez opiekuna.
@@ -80,7 +94,7 @@ opiekunowie %>%
 3. Sposób organizacji prac merytorycznych nad projektem badawczym leży w gestii opiekuna.
 
 
-## §3. Przypisywanie studentów do opiekunów - rekrutacja
+#### §3. Przypisywanie studentów do opiekunów - rekrutacja
 
 1. Przypisywanie studentów do opiekunów (rekrutacja) następuje do końca października.
 1. Za organizację procesu rekrutacji odpowiedzialny jest koordynator projektu badawczego.
@@ -101,7 +115,7 @@ opiekunowie %>%
 1. W drugiej rundzie rekrutacji studenci sporządzają listę preferowanych opiekunów, uszeregowanych od najbardziej do najmniej preferowanego. Na liście mogą znaleźć się tylko opiekunowie, którzy w drugiej rundzie rekrutacji mają jeszcze wolne miejsca. Następnie koordynator przyporządkowuje studentów do opiekunów na podstawie listy preferencji oraz średniej ze studiów (pierwszeństwo w przyporządkowaniu mają studenci z wyższą średnią).
 
 
-## §4. Efekty projektu
+#### §4. Efekty projektu
 
 1. Efektami zrealizowanego projektu badawczego są:
     + Raport z badań
@@ -119,7 +133,7 @@ opiekunowie %>%
 
 
 
-## §5.Rozliczenie godzin w pensum
+#### §5.Rozliczenie godzin w pensum
 
 1. Za opiekę nad jednym studentem w ramach projektu badawczego opiekun rozliczany jest tak jak za wykonanie 5 godzin zajęć dydaktycznych. Te 5 godzin należy udokumentować w pensum.
 1. Godziny dydaktyczne należne projektowi badawczemu przypisywane są każdego roku do jednostki, której pracownikiem jest koordynator.
