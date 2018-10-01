@@ -1,0 +1,129 @@
+---
+title: "Projekt badawczy - psychologia zdrowia"
+author: "Krzysztof Basiński"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: kable
+---
+# Wprowadzenie
+
+To jest strona przedmiotu **projekt badawczy**. Znajdziecie na niej wszystkie najważniejsze informacje związane z przedmiotem. W razie pytań lub wątpliwości [piszcie do mnie](mailto:krzysztof.basinski@gumed.edu.pl). Prosiłbym, aby tematy wszystkich maili w sprawie tego przedmiotu zaczynać od "[projekt badawczy]"!.
+
+# Ważne terminy
+
+## Rekrutacja
+
+- 1.10.2018 - ogłoszenie listy opiekunów
+- 4.10.2018, godz. 23:59 - ostateczny termin wyboru opiekunów
+- 9.10.2018 - ogłoszenie listy wstępnej, rozpoczęcie dodatkowej rekrutacji
+- 15.10.2018 - ogłoszenie ostatecznej listy przyjętych
+
+## Realizacja projektów
+
+- maj 2019 - konferencja końcowa
+
+# Lista opiekunów (w kolejności alfabetycznej)
+
+Poniżej znajdziecie listę dostępnych opiekunów, do których można się zgłaszać w ramach projektu badawczego. Każdy opiekun określił zakres tematyczny projektów u niego realizowanych. W celu uzyskania szczegółowych informacji o tematyce projektów należy kontaktować się z opiekunami.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(stringr)
+opiekunowie <- tribble(
+  ~stopien, ~imie, ~nazwisko, ~miejsca, ~temat,
+  "dr hab.", "Emilia", "Sitek", 3, "choroba Huntingtona, postępujące porażenie ponadjądrowe, afazja pierwotna postępująca",
+  "mgr", "Krzysztof", "Basiński", 4, "cognitive and emotional modulation of pain, cognitive science of audition",
+  "dr", "Agata", "Zdun-Ryżewska", 3, "zmęczenie, depresja, psychoonkologia, jakość życia, przyjmę też osobę z własnym tematem jeśli tylko uznam, że wiem w tym obszarze coś na tyle, aby pomóc w zrealizowaniu tego projektu",
+  "mgr", "Natalia", "Nadrowska", 5, "radzenie sobie ze stresem w systemie rodzinnym",
+  "mgr", "Katarzyna", "Milska", 12, "psychologia chorób somatycznych, psychologia chorób i zaburzeń psychicznych, psychologia zdrowia, psychoterapia, psychologia niepełnosprawności, psychologia zaburzeń genetycznych [szczegółowa lista tutaj](pb_milska.pdf)",
+  "mgr", "Anna", "Marcinkowska", 4, "neuropsychologia osób dorosłych, neuropsychologia medyczna, neuroobrazowanie funkcjonalne, psychologia w transplantologii, psychologia w przewlekłych chorobach nerek",
+  "dr hab.", "Katarzyna", "Nowicka-Sauer", 8, "funkcje poznawcze w chorobach układowych tkanki łącznej, percepcja choroby i jej korelatów u pacjentów z chorobami przewlekłymi",
+  "dr hab.", "Joanna", "Moryś", 8, "tbd",
+  "dr", "Maria", "Jeżewska", 0, "tbd",
+  "mgr", "Marta", "Grubman-Nowak", 0, "tbd",
+  "dr", "Maciej", "Walkiewicz", 2, "uwarunkowania osiąnięcia powodzenia w wykonywaniu zawodu psychologa"
+)
+
+opiekunowie %>% 
+  arrange(nazwisko) %>% 
+  mutate(opiekun = str_c(stopien, imie, nazwisko, sep = " ")) %>% 
+  select(opiekun, miejsca, temat)
+
+opiekunowie$miejsca %>% sum()
+```
+
+
+
+# Regulamin przedmiotu
+
+## §1. Podstawowe informacje o przedmiocie
+
+1. Organizacją procesu przypisywania studentów do opiekunów oraz organizacją **konferencji końcowej** zajmuje się **koordynator projektu badawczego** wyznaczony przez **kierownika kierunku**.
+1. Przedmiot projekt badawczy polega na zaprojektowaniu i zrealizowaniu psychologicznego badania empirycznego.
+2. Projekt jest realizowany **indywidualnie** przez studenta pod kierownictwem **opiekuna**.
+3. Opiekunem może być:
+    - dowolny psycholog będący pracownikiem GUMed,
+    - pracownik GUMed nie będący psychologiem, za zgodą kierownika kierunku
+    - doktorant, pod warunkiem, że ukończył studia psychologiczne, za zgodą kierownika kierunku
+3. Projekt badawczy trwa przez cały trzeci rok studiów.
+3. Za zrealizowanie projektu badawczego student otrzymuje 6 pkt. ECTS.
+
+
+
+## §2. Tematyka i zakres prac badawczych
+
+1. Opiekunowie ustalają zakres tematyczny projektów badawczych realizowanych pod ich opieką i informują o nim **koordynatora**.
+1. Temat *projektu badawczego* musi być zaakceptowany przez opiekuna.
+2. Tematyka projektów badawczych powinna być spójna z bieżącą działalnością naukową opiekuna.
+3. Sposób organizacji prac merytorycznych nad projektem badawczym leży w gestii opiekuna.
+
+
+## §3. Przypisywanie studentów do opiekunów - rekrutacja
+
+1. Przypisywanie studentów do opiekunów (rekrutacja) następuje do końca października.
+1. Za organizację procesu rekrutacji odpowiedzialny jest koordynator projektu badawczego.
+1. W pierwszym tygodniu zajęć dydaktycznych w roku akademickim, opiekunowie deklarują: 
+    + ile studentów gotowi są przyjąć pod opiekę 
+    + jaki jest proponowany zakres tematyczny projektów
+    + preferowaną metodę selekcji studentów w wypadku, gdy liczba chętnych przewyższy liczbę miejsc
+1. Lista opiekunów wraz z ilością miejsc, proponowanym zakresem tematycznym i metodą selekcji jest ogłaszana przez koordynatora projektu badawczego.
+1. Selekcja studentów może dokonywać się w oparciu o:
+    + krótki pisemny opis projektu, który student chciałby zrealizować, oceniany przez opiekuna
+    + rozmowę kwalifikacyjną z opiekunem
+    + pisemny sprawdzian wiedzy z dziedziny wybranej przez opiekuna, istotnej z punktu widzenia tematyki projektów badawczych, zorganizowany i oceniany przez opiekuna
+    + średnią ocen ze studiów lub z wybranych przez opiekuna przedmiotów
+1. Powyższe metody selekcji mają zastosowanie tylko wtedy, gdy ilość chętnych studentów przewyższy liczbę miejsc.
+1. W pierwszej rundzie rekrutacji (drugi tydzień zajęć dydaktycznych) studenci wybierają z listy dostępnych opiekunów swojego preferowanego opiekuna. W przypadku, gdy liczba chętnych nie przekroczy liczby miejsc, wszyscy chętni są zapisywani do danego opiekuna. W przeciwnym wypadku, zastosowanie znajduje wybrana przez opiekuna metoda selekcji.
+1. Wyniki pierwszej rundy rekrutacji ogłaszane są przez koordynatora w trzecim tygodniu zajęć dydaktycznych. Po ogłoszeniu wyników, natychmiastowo następuje druga runda rekrutacji.
+1. W drugiej rundzie rekrutacji biorą udział tylko studenci, którzy nie zostali zapisani do opiekunów w pierwszej rundzie i opiekunowie, u których pozostały wolne miejsca.
+1. W drugiej rundzie rekrutacji studenci sporządzają listę preferowanych opiekunów, uszeregowanych od najbardziej do najmniej preferowanego. Na liście mogą znaleźć się tylko opiekunowie, którzy w drugiej rundzie rekrutacji mają jeszcze wolne miejsca. Następnie koordynator przyporządkowuje studentów do opiekunów na podstawie listy preferencji oraz średniej ze studiów (pierwszeństwo w przyporządkowaniu mają studenci z wyższą średnią).
+
+
+## §4. Efekty projektu
+
+1. Efektami zrealizowanego projektu badawczego są:
+    + Raport z badań
+    + Plakat przedstawiony na konferencji końcowej
+1. Po zakończeniu projektu student otrzymuje od opiekuna **ocenę**, odzwierciedlającą całokształt wykonanej pracy. Na ocenę wpływa praca studenta przez cały okres trwania projektu, jakość raportu z badań oraz plakatu na konferencji końcowej.
+1. Raport z badań ma formę pisemną.
+1. Raport tworzony jest na wzór artykułu naukowego i ma właściwą strukturę: wprowadzenie, metoda, wyniki, dyskusja, literatura.
+1. Raport powinien być napisany zgodnie ze standardem APA.
+1. Raport może być napisany w języku polskim lub angielskim.
+1. W maju każdego roku akademickiego zorganizowana zostanie *konferencja końcowa*.
+1. Konferencja będzie miała formę sesji plakatowej, na której zaprezentowane zostaną wszystkie wykonane w danym roku projekty badawcze.
+1. Na konferencję końcową zaproszeni są **wszyscy** studenci kierunku psychologia zdrowia. Studenci mający w czasie konferencji zajęcia dydaktyczne uzyskają zwolnienie z zajęć od kierownika kierunku.
+1. Najlepsze plakaty zostaną wyróżnione przez komisję konkursową.
+1. Skład komisji konkursowej wybrany zostanie przez kierownika kierunku psychologia zdrowia spośród pracowników naukowo-dydaktycznych GUMed.
+
+
+
+## §5.Rozliczenie godzin w pensum
+
+1. Za opiekę nad jednym studentem w ramach projektu badawczego opiekun rozliczany jest tak jak za wykonanie 5 godzin zajęć dydaktycznych. Te 5 godzin należy udokumentować w pensum.
+1. Godziny dydaktyczne należne projektowi badawczemu przypisywane są każdego roku do jednostki, której pracownikiem jest koordynator.
+1. Godziny są następnie udostępniane zakładom, których pracownikami są opiekunowie, w liczbie 5 godzin za każdego studenta.
+1. Koordynator poprowadzi ze studentami 15-godzinne seminarium (7 godzin w semestrze zimowym i 8 w semestrze letnim), poświęcone sprawom związanym z organizacją projektu badawczego.
+
+
