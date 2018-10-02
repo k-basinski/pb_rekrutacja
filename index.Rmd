@@ -40,7 +40,7 @@ opiekunowie <- tribble(
   "mgr", "Katarzyna", "Milska", 12, "psychologia chorób somatycznych, psychologia chorób i zaburzeń psychicznych, psychologia zdrowia, psychoterapia, psychologia niepełnosprawności, psychologia zaburzeń genetycznych [szczegółowa lista tutaj](pb_milska.pdf)",
   "mgr", "Anna", "Marcinkowska", 4, "neuropsychologia osób dorosłych, neuropsychologia medyczna, neuroobrazowanie funkcjonalne, psychologia w transplantologii, psychologia w przewlekłych chorobach nerek",
   "dr hab.", "Katarzyna", "Nowicka-Sauer", 8, "funkcje poznawcze w chorobach układowych tkanki łącznej, percepcja choroby i jej korelatów u pacjentów z chorobami przewlekłymi",
-  "dr hab.", "Joanna", "Moryś", 8, "tbd",
+  "dr hab.", "Joanna", "Moryś", 8, "Jak stres wpływa na organizm? Układ immunologiczny a emocje? Wpływ dysfunkcji narządów wewnętrznych na funkcje poznawcze i emocjonalne (przysadka, tarczyca, nerki, wątroba, serce,  nadnercza, trzustka, gonady, układ pokarmowy i oddechowy)",
   "dr", "Maria", "Jeżewska", 0, "tbd",
   "mgr", "Marta", "Grubman-Nowak", 0, "tbd",
   "dr", "Maciej", "Walkiewicz", 2, "uwarunkowania osiąnięcia powodzenia w wykonywaniu zawodu psychologa"
