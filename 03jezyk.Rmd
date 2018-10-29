@@ -1,0 +1,90 @@
+---
+title: "Język naukowy"
+author: "Krzysztof Basiński"
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    center: true
+    incremental: true
+---
+
+# Język naukowy
+
+## Źródło: APA Manual, 6th ed.
+
+## Długość
+
+- Optymalna długość to taka, która jest wymagana, żeby przekazać to co autor chce powiedzieć
+- **Less is more**
+- Styl "dyskursywny" zaciera myśl przewodnią
+- Jeśli artykuł jest za długi:
+    + wyeliminuj powtórzenia
+    + pisz wprost
+    + pisz w stronie czynnej
+    + jeśli wszystko zawiedzie: podziel na dwa artykuły
+
+## Nagłówki
+
+- Nagłówki mają różne poziomy (APA Style dopuszcza 5 poziomów)
+- Wszystkie nagłówki o tej samej "wadze" powinny mieć ten sam poziom nagłówka
+- Jeśli w jakiejś sekcji chcesz wprowadzić podsekcje, muszą być co najmniej dwie
+- Początek artykułu z zasady jest *wstępem*, nie ma potrzeby go nazywać wstępem
+
+## Inne sposoby organizacji tekstu
+
+- Stosuj sensowne podziały akapitów (jeden akapit to jedna myśl)
+- Listy wypunktowane i numerowane są fajne
+
+## Styl pisarski
+
+- **The prime objective of scientific reporting is clear comunication.**
+- Tekst naukowy to nie beletrystyka. To co się sprawdza w jednym nie sprawdza się w drugim
+- Ciągłość i logika wywodu najważniejsze
+- Uwaga na podmioty domyślne! Podmiot powinien być oczywisty (najczęściej podmiot zdania poprzedniego). Jeśli nie jest, przeformułuj!
+
+## Transition devices (po angielsku)
+
+- Time links: then, next, after, while,since
+- cause—efect links: therefore, consequently, as a result
+- adition links: in adition, moreover, furthermore, similarly
+- contrast links: but, conversely, nevertheles, however, although
+
+## Czas
+
+- Przegląd literatury, metody: czas przeszły, *past simple, present perfect*
+- Wyniki: czas przeszły, *past simple*
+- Dyskusja wyników, wnioski: czas teraźniejszy, *present simple*
+
+## Powtórzenia
+
+- W języku naukowym od powtórzeń często nie da się uciec!
+- Uważaj stosując synonimy! Synonim sugeruję dyskretną zmianę znaczenia
+- Np. emocja != afekt != podniecenie != poruszenie != namiętność != uczucie
+- Często da się uciec do powtórzeń stosując podmiot domyślny
+
+## Ekonomia ekspresji
+
+- **Say only what needs to be said**
+- **Short words and short sentences are easier to comprehend than long ones**
+- Przykłady z APA Manual:
+    + based on the fact that -> because
+    + at the present time -> now
+    + for the purpose of -> for
+    + the present study -> this study
+    + there were several students who completed -> several students completed
+
+## Ekonomia ekspresji
+
+- **Use no more words than are necesary to convey your meaning**
+- Przykłady z APA Manual (pogrubione zbędne słowa):
+    - they were **both** alike
+    - **a total of** 68 people
+    - four **different** groups did
+    - instructions, which were **exactly** the same
+    - **absolutely** essential
+    - **completely** anonimous
+
+
+## Przykład dla rozwagi!
+
+*Znane w teorii i praktyce klinicznej związki lęku i depresji  w  wynikach  naszych badań okazały się uwarunkowane zespołami odrębnych zmiennych  poznawczych i emocjonalnych wyjaśniających ich rolę w interpretacji przewlekłego bólu przez chorych z bólem pleców.  Obecność lęku i depresji  w czasie leczenia  zachowawczego lub wobec jego nieskuteczności wśród chorych  przed leczeniem operacyjnym odnotowano także w badaniach innych autorów (Løchting et al., 2017). Ich wyniki potwierdzają także rolę lęku i depresji w utrwalaniu   niesprawności chorych , co wyjaśnia model lęk-unikanie. Proces ten  zachodzi poprzez mechanizm zależności strachu, depresyjnej interpretacji symptomów bólu  przez chorych z przewlekłymi dolegliwościami pleców oraz w konsekwencji unikanie aktywności  doprowadzającej  do zwiększania niesprawności. (Seekataz et al., 2016)*

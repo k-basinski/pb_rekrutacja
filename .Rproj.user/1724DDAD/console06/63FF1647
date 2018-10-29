@@ -127,3 +127,18 @@ remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8) 
 To https://github.com/k-basinski/pb_rekrutacja.git
    da49ab6..0ca81cc  master -> master
 gut[K[Kit add .
+]0;~/Dropbox/dydaktyka/projekt_badawczy/pb_rekrutacjaMBP-Krzysztof:pb_rekrutacja krzysztof$ git commit -m "uzupelnione J.Morys"
+[master 76f809f] uzupelnione J.Morys
+ 5 files changed, 19 insertions(+), 5 deletions(-)
+ rewrite .Rproj.user/1724DDAD/console06/INDEX001 (86%)
+ delete mode 100644 .Rproj.user/shared/notebooks/BD908730-opiekunowie/1/s/chunks.json
+]0;~/Dropbox/dydaktyka/projekt_badawczy/pb_rekrutacjaMBP-Krzysztof:pb_rekrutacja krzysztof$ gpom
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 1.77 KiB | 1.77 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/k-basinski/pb_rekrutacja.git
+   0ca81cc..76f809f  master -> master
+]0;~/Dropbox/dydaktyka/projekt_badawczy/pb_rekrutacjaMBP-Krzysztof:pb_rekrutacja krzysztof$ 
