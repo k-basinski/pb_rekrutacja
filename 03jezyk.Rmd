@@ -83,8 +83,3 @@ output:
     - instructions, which were **exactly** the same
     - **absolutely** essential
     - **completely** anonimous
-
-
-## Przykład dla rozwagi!
-
-*Znane w teorii i praktyce klinicznej związki lęku i depresji  w  wynikach  naszych badań okazały się uwarunkowane zespołami odrębnych zmiennych  poznawczych i emocjonalnych wyjaśniających ich rolę w interpretacji przewlekłego bólu przez chorych z bólem pleców.  Obecność lęku i depresji  w czasie leczenia  zachowawczego lub wobec jego nieskuteczności wśród chorych  przed leczeniem operacyjnym odnotowano także w badaniach innych autorów (Løchting et al., 2017). Ich wyniki potwierdzają także rolę lęku i depresji w utrwalaniu   niesprawności chorych , co wyjaśnia model lęk-unikanie. Proces ten  zachodzi poprzez mechanizm zależności strachu, depresyjnej interpretacji symptomów bólu  przez chorych z przewlekłymi dolegliwościami pleców oraz w konsekwencji unikanie aktywności  doprowadzającej  do zwiększania niesprawności. (Seekataz et al., 2016)*

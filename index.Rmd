@@ -69,6 +69,8 @@ Seminaria odbywają się w poniższych terminach:
 # Prezentacje z seminariów
 
 - 01 - [Nauka w Polsce](01nauka_pl.html)
+- 02 - [Zarządzanie czasem](02zarzadzanie.html)
+- 03 - [Język naukowy](03jezyk.html)
 
 # Regulamin przedmiotu
 
