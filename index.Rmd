@@ -15,7 +15,7 @@ To jest strona przedmiotu **projekt badawczy**. Znajdziecie na niej wszystkie na
 
 # Postery 2018/2019
 
-[Tutaj](postery_19/postery.md) znajdziecie listę posterów 
+[Tutaj](postery_19/postery) znajdziecie listę posterów 
 
 # Seminaria
 
