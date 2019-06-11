@@ -11,11 +11,48 @@ output:
 
 To jest strona przedmiotu **projekt badawczy**. Znajdziecie na niej wszystkie najważniejsze informacje związane z przedmiotem. W razie pytań lub wątpliwości [piszcie do mnie](mailto:krzysztof.basinski@gumed.edu.pl). Prosiłbym, aby tematy wszystkich maili w sprawie tego przedmiotu zaczynać od "[projekt badawczy]"!
 
-# Wasze postery
+# Ważne terminy
 
-# Postery 2018/2019
+## Rekrutacja
 
-[Tutaj](poster_19/postery.md) znajdziecie listę posterów 
+- 1.10.2018 - ogłoszenie listy opiekunów
+- 4.10.2018, godz. 23:59 - ostateczny termin wyboru opiekunów
+- 9.10.2018 - ogłoszenie listy wstępnej, rozpoczęcie dodatkowej rekrutacji
+- 15.10.2018 - ogłoszenie ostatecznej listy przyjętych
+
+## Realizacja projektów
+
+- maj 2019 - konferencja końcowa
+
+# Lista opiekunów (w kolejności alfabetycznej)
+
+Poniżej znajdziecie listę dostępnych opiekunów, do których można się zgłaszać w ramach projektu badawczego. Każdy opiekun określił zakres tematyczny projektów u niego realizowanych. W celu uzyskania szczegółowych informacji o tematyce projektów należy kontaktować się z opiekunami.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(stringr)
+opiekunowie <- tribble(
+  ~stopien, ~imie, ~nazwisko, ~miejsca, ~temat,
+  "dr hab.", "Emilia", "Sitek", 3, "choroba Huntingtona, postępujące porażenie ponadjądrowe, afazja pierwotna postępująca",
+  "mgr", "Krzysztof", "Basiński", 4, "poznawcza i emocjonalna modulacja bólu, cognitive science of audition",
+  "dr", "Agata", "Zdun-Ryżewska", 3, "zmęczenie, depresja, psychoonkologia, jakość życia, przyjmę też osobę z własnym tematem jeśli tylko uznam, że wiem w tym obszarze coś na tyle, aby pomóc w zrealizowaniu tego projektu",
+  "mgr", "Natalia", "Nadrowska", 5, "radzenie sobie ze stresem w systemie rodzinnym",
+  "mgr", "Katarzyna", "Milska", 12, "psychologia chorób somatycznych, psychologia chorób i zaburzeń psychicznych, psychologia zdrowia, psychoterapia, psychologia niepełnosprawności, psychologia zaburzeń genetycznych [szczegółowa lista tutaj](pb_milska.pdf)",
+  "mgr", "Anna", "Marcinkowska", 4, "neuropsychologia osób dorosłych, neuropsychologia medyczna, neuroobrazowanie funkcjonalne, psychologia w transplantologii, psychologia w przewlekłych chorobach nerek",
+  "dr hab.", "Katarzyna", "Nowicka-Sauer", 8, "funkcje poznawcze w chorobach układowych tkanki łącznej, percepcja choroby i jej korelatów u pacjentów z chorobami przewlekłymi",
+  "dr hab.", "Joanna", "Moryś", 8, "Jak stres wpływa na organizm? Układ immunologiczny a emocje? Wpływ dysfunkcji narządów wewnętrznych na funkcje poznawcze i emocjonalne (przysadka, tarczyca, nerki, wątroba, serce,  nadnercza, trzustka, gonady, układ pokarmowy i oddechowy)",
+  "dr", "Maria", "Jeżewska", 0, "tbd",
+  "mgr", "Marta", "Grubman-Nowak", 0, "tbd",
+  "dr", "Maciej", "Walkiewicz", 2, "uwarunkowania osiąnięcia powodzenia w wykonywaniu zawodu psychologa"
+)
+
+opiekunowie %>% 
+  arrange(nazwisko) %>% 
+  mutate(opiekun = str_c(stopien, imie, nazwisko, sep = " ")) %>% 
+  select(opiekun, miejsca, temat)
+
+# opiekunowie$miejsca %>% sum()
+```
 
 # Seminaria
 

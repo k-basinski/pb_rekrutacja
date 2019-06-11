@@ -1325,9 +1325,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -1346,24 +1344,88 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -1452,6 +1514,16 @@ div.tocify {
 
 </style>
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
 <div class="col-xs-12 col-sm-4 col-md-3">
@@ -1477,95 +1549,12 @@ div.tocify {
 <h1>Wprowadzenie</h1>
 <p>To jest strona przedmiotu <strong>projekt badawczy</strong>. Znajdziecie na niej wszystkie najważniejsze informacje związane z przedmiotem. W razie pytań lub wątpliwości <a href="mailto:krzysztof.basinski@gumed.edu.pl">piszcie do mnie</a>. Prosiłbym, aby tematy wszystkich maili w sprawie tego przedmiotu zaczynać od “[projekt badawczy]”!</p>
 </div>
-<div id="wazne-terminy" class="section level1">
-<h1>Ważne terminy</h1>
-<div id="rekrutacja" class="section level2">
-<h2>Rekrutacja</h2>
-<ul>
-<li>1.10.2018 - ogłoszenie listy opiekunów</li>
-<li>4.10.2018, godz. 23:59 - ostateczny termin wyboru opiekunów</li>
-<li>9.10.2018 - ogłoszenie listy wstępnej, rozpoczęcie dodatkowej rekrutacji</li>
-<li>15.10.2018 - ogłoszenie ostatecznej listy przyjętych</li>
-</ul>
+<div id="wasze-postery" class="section level1">
+<h1>Wasze postery</h1>
 </div>
-<div id="realizacja-projektow" class="section level2">
-<h2>Realizacja projektów</h2>
-<ul>
-<li>maj 2019 - konferencja końcowa</li>
-</ul>
-</div>
-</div>
-<div id="lista-opiekunow-w-kolejnosci-alfabetycznej" class="section level1">
-<h1>Lista opiekunów (w kolejności alfabetycznej)</h1>
-<p>Poniżej znajdziecie listę dostępnych opiekunów, do których można się zgłaszać w ramach projektu badawczego. Każdy opiekun określił zakres tematyczny projektów u niego realizowanych. W celu uzyskania szczegółowych informacji o tematyce projektów należy kontaktować się z opiekunami.</p>
-<div class="kable-table">
-<table>
-<thead>
-<tr class="header">
-<th align="left">opiekun</th>
-<th align="right">miejsca</th>
-<th align="left">temat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">mgr Krzysztof Basiński</td>
-<td align="right">4</td>
-<td align="left">poznawcza i emocjonalna modulacja bólu, cognitive science of audition</td>
-</tr>
-<tr class="even">
-<td align="left">mgr Marta Grubman-Nowak</td>
-<td align="right">0</td>
-<td align="left">tbd</td>
-</tr>
-<tr class="odd">
-<td align="left">dr Maria Jeżewska</td>
-<td align="right">0</td>
-<td align="left">tbd</td>
-</tr>
-<tr class="even">
-<td align="left">mgr Anna Marcinkowska</td>
-<td align="right">4</td>
-<td align="left">neuropsychologia osób dorosłych, neuropsychologia medyczna, neuroobrazowanie funkcjonalne, psychologia w transplantologii, psychologia w przewlekłych chorobach nerek</td>
-</tr>
-<tr class="odd">
-<td align="left">mgr Katarzyna Milska</td>
-<td align="right">12</td>
-<td align="left">psychologia chorób somatycznych, psychologia chorób i zaburzeń psychicznych, psychologia zdrowia, psychoterapia, psychologia niepełnosprawności, psychologia zaburzeń genetycznych <a href="pb_milska.pdf">szczegółowa lista tutaj</a></td>
-</tr>
-<tr class="even">
-<td align="left">dr hab. Joanna Moryś</td>
-<td align="right">8</td>
-<td align="left">Jak stres wpływa na organizm? Układ immunologiczny a emocje? Wpływ dysfunkcji narządów wewnętrznych na funkcje poznawcze i emocjonalne (przysadka, tarczyca, nerki, wątroba, serce, nadnercza, trzustka, gonady, układ pokarmowy i oddechowy)</td>
-</tr>
-<tr class="odd">
-<td align="left">mgr Natalia Nadrowska</td>
-<td align="right">5</td>
-<td align="left">radzenie sobie ze stresem w systemie rodzinnym</td>
-</tr>
-<tr class="even">
-<td align="left">dr hab. Katarzyna Nowicka-Sauer</td>
-<td align="right">8</td>
-<td align="left">funkcje poznawcze w chorobach układowych tkanki łącznej, percepcja choroby i jej korelatów u pacjentów z chorobami przewlekłymi</td>
-</tr>
-<tr class="odd">
-<td align="left">dr hab. Emilia Sitek</td>
-<td align="right">3</td>
-<td align="left">choroba Huntingtona, postępujące porażenie ponadjądrowe, afazja pierwotna postępująca</td>
-</tr>
-<tr class="even">
-<td align="left">dr Maciej Walkiewicz</td>
-<td align="right">2</td>
-<td align="left">uwarunkowania osiąnięcia powodzenia w wykonywaniu zawodu psychologa</td>
-</tr>
-<tr class="odd">
-<td align="left">dr Agata Zdun-Ryżewska</td>
-<td align="right">3</td>
-<td align="left">zmęczenie, depresja, psychoonkologia, jakość życia, przyjmę też osobę z własnym tematem jeśli tylko uznam, że wiem w tym obszarze coś na tyle, aby pomóc w zrealizowaniu tego projektu</td>
-</tr>
-</tbody>
-</table>
-</div>
+<div id="postery-20182019" class="section level1">
+<h1>Postery 2018/2019</h1>
+<p><a href="poster_19/postery.md">Tutaj</a> znajdziecie listę posterów</p>
 </div>
 <div id="seminaria" class="section level1">
 <h1>Seminaria</h1>
