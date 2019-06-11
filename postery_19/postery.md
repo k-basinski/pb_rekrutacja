@@ -7,3 +7,5 @@
 | Paulina Wika | Emilia Sitek | [Profil funkcji wykonawczych w wariancie Richardsona postępującego porażenia nadjądrowego](p_wika.pdf) |
 | Agnieszka Wika | Emilia Sitek | [The profile of language impairment in primary progressive aphasia](a_wika.pdf) |
 | Monika Szatkowska | Natalia Nadrowska | [Różnice i zależności w zakresie prężności rodzinnej i psychicznej u osób mieszkajacych i niemieszkających z rodzicami](szatkowska.pdf) |
+| Natalia Mańkowska | Anna Marcinkowska | [Porównanie modeli przebiegu poznawczego starzenia się osób z nadciśnieniem tętniczym i osób zdrowych](mankowskaa.pdf) |
+| Barbara Iwaszko | Agata Zdun-Ryżewska | [Wpływ czynników psychospołecznych i doświadczeń w edukacji muzycznej na odczuwanie tremy przez studentów akademii muzycznych w Polsce](iwaszko.pdf) |
